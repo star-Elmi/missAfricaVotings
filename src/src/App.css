@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(203, 249, 255, 0.676);
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.to-do-list {
+  width: 1000px;
+  border: 1.2px solid darkcyan;
+  border-radius: 5px;
+  background-color: rgba(203, 249, 255, 0.676);
+  padding: 10px 20px 20px 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.to-do-list h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.to-do-list input {
+    padding: 7px 10px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.to-do-list button.add-button {
+    padding: 7px 20px;
+    font-size: 19.5px;
+    border-radius: 5px;
+    background-color: hsl(216, 100%, 50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all .4s ease;
+}
+
+button.add-button:active {
+    transform: scale(1);
+}
+
+ol li{
+    background: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    overflow: hidden;
+    font-size: 25px;
+    display: flex;
+    width: 900px;
+    align-items: center;
+}
+
+ol li .spans {
+    width: 80%;
+    overflow: hidden;
+}
+
+
+
+.to-do-list button.delete-button {
+    padding: 7px 12px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: hsl(216, 100%, 50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all .4s ease;
+    margin-left: 20px;
+}
+
+button.delete-button:active {
+    transform: scale(1);
+}
+
+.to-do-list button.moveup-button {
+    padding: 7px 12px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: hsl(216, 100%, 50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all .4s ease;
+    margin-left: 20px;
+}
+
+button.moveup-button:active {
+    transform: scale(1);
+}
+.to-do-list button.movedown-button {
+    padding: 7px 12px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: hsl(216, 100%, 50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all .4s ease;
+    margin-left: 20px;
+}
+
+button.movedown-button:active {
+    transform: scale(1);
+}

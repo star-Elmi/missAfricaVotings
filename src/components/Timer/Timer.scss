@@ -1,0 +1,38 @@
+@use "../../Sass/style.scss" as mixin;
+.timer {
+  margin-top: 60px;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    font-size: mixin.$headingFontSize;
+  }
+
+  .time {
+    background-color: rgba(231, 254, 255, 0.326);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    .digit_text {
+      padding: 20px 30px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .digit {
+        font-size: 10rem;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .text {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-left: 10px;
+      }
+    }
+  }
+}

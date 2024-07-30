@@ -1,0 +1,53 @@
+@use "../../Sass/style.scss" as mixin;
+
+.header {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // margin-top: 20px;
+    margin-top: 20px;
+    justify-content: center;
+   
+    // background-color: black;
+//    color: #7b0bc5;
+}
+
+.header ul {
+    display: flex;
+    font-size: 14px;
+    gap: 4rem;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.header ul li link{
+   text-decoration: none;
+   color: black;
+   cursor: pointer;
+}
+
+.header ul li:first-child {
+    border-bottom: 1.60px solid rgb(241, 240, 240);
+    padding-bottom: 2px;
+}
+
+img {
+    cursor: pointer;
+    transition: all .5s ease;
+ 
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+// .logo{
+//     width: 200px;
+//     height: 100px;
+//     margin-left: 30px;
+//     margin-top: 15px;
+//     float: left;
+// }
